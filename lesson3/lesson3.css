@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+/* 親要素にFlexboxを適用 */
+.cakes-container {
+    display: flex;
+    justify-content: space-between; /* 子要素を左右に配置 */
+    align-items: flex-start; /* 高さを揃える（オプション） */
+    gap: 10px; /* 必要なら隙間を追加 */
+}
+#one{
+    background-color: #F6F477;	
+}
+#top {
+	float: none;
+	
+}
+#two, #three {
+    width: 45%; /* 各要素の幅を調整して横に並べる */
+    background-color: #f9f9f9; /* 背景色（オプション） */
+    padding: 10px; /* パディング（オプション） */
+    box-sizing: border-box; /* パディングを含めて幅を計算 */
+    float: left;
+}
+#two{
+    background-color: #F8B9F5;
+}
+#three{
+    background-color: #D7A1FE;	
+}
